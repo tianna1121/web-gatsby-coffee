@@ -32,7 +32,8 @@ h6 {
   font-size: 2rem;
 }
 
-.default-background {
+.default-background,
+.about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -58,4 +59,8 @@ h6 {
 
 .footer .footer-text {
   color: var(--mainYellow);
+}
+
+.about-background {
+  min-height: 60vh;
 }
